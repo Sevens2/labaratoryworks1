@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADOV WEBSYTE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>ADOV</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="sidebar">
+            <h2>Каналы</h2>
+            <ul>
+                <li>/ общий</li>
+                <li>/ случайный</li>
+                <li>/ проекты</li>
+            </ul>
+            <button class="btn" id="createChannelBtn">Создать канал</button>
+        </section>
+
+        <section class="chat">
+            <h2>Чат</h2>
+            <div class="messages" id="messages">
+                <div class="message">дай напасик</div>
+                <div class="message">на братанчик</div>
+            </div>
+            <input type="text" id="messageInput" placeholder="Введите сообщение...">
+            <button class="btn" id="sendMessageBtn">поплакать</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 ADOV. прав нет.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
